@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head style="margin: 0; padding: 0;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMA-Home</title>
+</head>
+<body style="margin: 0; padding: 0;">
+
+    <!-- Header Section -->
+    <header>
+        <div style="display: flex; align-items: center;">
+            <!-- Logo Image -->
+            <div>
+                <img src="TMA.png" alt="Top Minds Academy Logo" width="190" height="80">
+            </div>
+            <!-- Navigation Links -->
+            <nav style="display: flex; align-items: center;">
+                <a href="home.html" style="margin-right: 20px; text-decoration: none;">
+                    <img src="home.png" alt="Home Icon" width="12" height="12"> Home
+                </a>
+                <a href="home.html" style="margin-right: 20px; text-decoration: none;" class="home">
+                    <img src="course1.png" alt="Courses Icon" width="12" height="12"> Courses
+                </a>
+                <select id="dropdown" name="links" onchange="window.location.href=this.value;" style="margin-right: 20px;">
+                    <option value="#">Select</option>
+                    <option value="course1.html">JAVA FULLSTACK</option>
+                    <option value="course2.html">DATA STRUCTURES</option>
+                </select>
+                <a href="reviews.html" style="margin-right: 20px; text-decoration: none;width: 140px;">
+                    <img src="feedback.png" alt="Reviews Icon" width="12" height="12"> Reviews
+                </a>
+                <a href="hire.html" style="margin-right: 20px; text-decoration: none;width: 200px;">
+                    <img src="hired.png" alt="Hire Icon" width="12" height="12"> Hire From Us
+                </a>
+                <a href="contact.html" style="text-decoration: none;width: 200px;">
+                    <img src="contactus.png" alt="Contact Icon" width="12" height="12"> Contact Us
+                </a>
+                <marquee behavior="alternate" direction="left" scrollamount="2" loop="infinite" style="margin-right: 0%;">
+                    <img src="java.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="python.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="sql.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="html.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="css.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="hierarchical.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="js.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="ap.webp" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="resume-icon-png-5.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="softskills.avif" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+                    <img src="java.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="python.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="sql.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="html.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="css.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="hierarchical.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="js.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="ap.webp" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="resume-icon-png-5.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="softskills.avif" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="java.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="python.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="sql.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="html.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="css.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="hierarchical.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="js.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="ap.webp" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="resume-icon-png-5.png" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="softskills.avif" alt="" height="70" width="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </marquee>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Section -->
+    <div style="width: 100%; height: 400px; padding: 60px; margin-left: 20px;margin: 0%; background-image: url('blurry-background-in-blue.jpg'); color: aliceblue; background-size: cover; background-position: center; display: flex; justify-content: center; align-items: center;">
+        <div style="flex: 1;">
+            <h1 style="font-size: 60px; font-weight: 600;">TOP MINDS<br>ACADEMY</h1>
+            <div style="background-color: rgb(233, 244, 250); width: 540.1px; padding: 10px;">
+                <span style="font-size: 30px; color: black;"><strong>Gamify Learning | |</strong></span>
+                <span style="background-color: black; font-size: 30px; color: aliceblue;">
+                    <strong>Simplify Environment</strong>
+                </span>
+            </div>
+            <p style="font-family: cursive; font-size: larger;">
+                The Best Institute For <em><ins>Java Full Stack Developer</ins></em> and <em><ins>Data Structures & Algorithm</ins> course</em>.<br>
+                Get unlimited placement opportunities till you get placed.<br>
+                Trusted by over 75,000+ students across India.
+            </p>
+        </div>
+        <div style="flex: 1; display: flex; justify-content: center; align-items: center; margin-top: 40px;">
+            <pre><img src="AI.gif" alt="Top Minds Academy" style="max-width: 100%; height: auto;">
+                                       <strong style="font-size: larger;"><abbr title="Artificial Intelligence">AI</abbr> classes</strong>
+            </pre>
+        </div>
+    </div>
+    <div class="footer_footer_divider__RuieL" style="background-color: whitesmoke; height: 1px;"><br></div>
+    <!-- Hired Section -->
+    <div style="display: flex; padding: 60px; background-color: rgb(14, 40, 73); color: aliceblue; margin: 0; padding: 0;">
+        <div style="width: 100%;">
+            <h1 style="text-align: center;">Our Students Got Hired from:</h1>
+            <br>
+            <marquee behavior="scroll" direction="left" scrollamount="6" style="width: 100%; background-color: aliceblue;">
+                <!-- Replace with actual company logos -->
+                <img src="google.png" alt="Company 1" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="Infosys.png" alt="Company 2" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="tata.png" alt="Company 3" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="Amazon.png" alt="Company 4" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="accenture.png" alt="Company 5" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="microsoft.png" alt="Company 6" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="TMA.png" alt="Company 7" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="turkcell.png" alt="Company 1" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="okura.png" alt="Company 2" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="myntra (1).png" alt="Company 3" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="kisspng-logo-swimsuit-turbo-wturbopng.png" alt="Company 4" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="accenture.png" alt="Company 5" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <!-- dulpicate1 -->
+                    <img src="google.png" alt="Company 1" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="Infosys.png" alt="Company 2" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="tata.png" alt="Company 3" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="Amazon.png" alt="Company 4" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="accenture.png" alt="Company 5" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="microsoft.png" alt="Company 6" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="TMA.png" alt="Company 7" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="turkcell.png" alt="Company 1" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="okura.png" alt="Company 2" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="myntra (1).png" alt="Company 3" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="kisspng-logo-swimsuit-turbo-wturbopng.png" alt="Company 4" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="accenture.png" alt="Company 5" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <!-- dulpicate2 -->
+                    <img src="google.png" alt="Company 1" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="Infosys.png" alt="Company 2" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="tata.png" alt="Company 3" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="Amazon.png" alt="Company 4" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="accenture.png" alt="Company 5" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="microsoft.png" alt="Company 6" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="TMA.png" alt="Company 7" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="turkcell.png" alt="Company 1" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="okura.png" alt="Company 2" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="myntra (1).png" alt="Company 3" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="kisspng-logo-swimsuit-turbo-wturbopng.png" alt="Company 4" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="accenture.png" alt="Company 5" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+            </marquee>
+
+            <marquee behavior="scroll" direction="right" scrollamount="6" style="width: 100%; background-color: aliceblue;">
+                <!-- Replace with actual company logos -->
+                <img src="google.png" alt="Company 1" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="Infosys.png" alt="Company 2" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="tata.png" alt="Company 3" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="Amazon.png" alt="Company 4" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="accenture.png" alt="Company 5" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="microsoft.png" alt="Company 6" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="TMA.png" alt="Company 7" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="turkcell.png" alt="Company 1" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="okura.png" alt="Company 2" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="myntra (1).png" alt="Company 3" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="kisspng-logo-swimsuit-turbo-wturbopng.png" alt="Company 4" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="accenture.png" alt="Company 5" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <!-- dulpicate1 -->
+                    <img src="google.png" alt="Company 1" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="Infosys.png" alt="Company 2" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="tata.png" alt="Company 3" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="Amazon.png" alt="Company 4" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="accenture.png" alt="Company 5" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="microsoft.png" alt="Company 6" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="TMA.png" alt="Company 7" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="turkcell.png" alt="Company 1" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="okura.png" alt="Company 2" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="myntra (1).png" alt="Company 3" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="kisspng-logo-swimsuit-turbo-wturbopng.png" alt="Company 4" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="accenture.png" alt="Company 5" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <!-- dulpicate2 -->
+                    <img src="google.png" alt="Company 1" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="Infosys.png" alt="Company 2" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="tata.png" alt="Company 3" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="Amazon.png" alt="Company 4" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="accenture.png" alt="Company 5" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="microsoft.png" alt="Company 6" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="TMA.png" alt="Company 7" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="turkcell.png" alt="Company 1" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="okura.png" alt="Company 2" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="myntra (1).png" alt="Company 3" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="kisspng-logo-swimsuit-turbo-wturbopng.png" alt="Company 4" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="accenture.png" alt="Company 5" height="70" width="120" style="margin-top: 20px; margin-bottom: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;
+            </marquee>
+        </div>
+    </div>
+    <div style="display: flex; padding: 20px; background-color: rgba(14, 40, 73, 0.002); color: rgb(7, 83, 150);">
+        <div style="width: 100%;">
+            <h1 style="text-align: center;">Recognized by International Bodies & Govt. Of India</h1>
+            <div style="margin-left: 650px;">
+                <img src="government-logo.webp" alt=""><img src="iso-logo1.webp" alt=""><img src="iso-logo2.webp" alt="">
+            </div>
+        </div>
+    </div>
+    <footer style="background-color:rgb(14, 40, 73) ;">
+        <footer>
+            <table width="100%">
+              <tr>
+                <td class="footer_left">
+                  <!-- Footer Left Content -->
+                  <div class="footer_left">
+                        <div>
+                            <img src="TMA.png" alt="companylogo" style="height: 100px; width: 250px; margin-top: 15px; margin-left: 15px;">
+                            <p style="color: rgb(83, 158, 225); margin-left: 15px; margin-top: 25px;">A Unit of Top Minds  Private Limited</p>
+                        </div>
+                        <div>
+                            <p style="color: whitesmoke; margin-left: 15px; margin-top: 25px;">Follow us on</p>
+                            <span style="height: 80px; width: 200px; margin-top: 15px; margin-left: 15px;">
+                                <a href="https://www.facebook.com/thetapacademy">
+                                    <img alt="facebook" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" src="facebook.a2c0aebd.svg" style="color: transparent;">
+
+                                </a>
+                            </span>
+                            <span>
+                                <a href="https://www.youtube.com/tapacademy">
+                                    <img alt="youtube" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" src="youtube.0cc92eb3.svg" style="color: transparent; margin-left: 20px;">
+
+                                </a>
+                            </span>
+                            <span>
+                                <a href="https://www.instagram.com/tapacademy.online/">
+                                    <img alt="instagram" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" src="instagram.c8d10afe.svg" style="color: transparent;margin-left: 20px;">
+                                </a>
+                            </span>
+                            <span>
+                                <a href="https://in.linkedin.com/company/thetapacademy"> 
+                                    <img alt="linkedin" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" src="linkedin.31fdab4f.svg" style="color: transparent; margin-left: 20px;">
+
+                                </a>
+                            </span>
+                        </div>
+                </td>
+                <td class="footer_right">
+                  <!-- Footer Right Content -->
+                  <div class="footer_right" style="width: 200px;height: 100px;">
+                    <p style="color: aliceblue;">Useful links</p>
+                    <UL style="color: aliceblue;">
+                        <LI> <a href="home.html" style="color:  rgb(83, 158, 225);">Home</a></LI>
+                        <LI> <a href="reviews.html" style="color:  rgb(83, 158, 225);">Student review</a></LI>
+                        <LI><a href="hire.html" style="color:  rgb(83, 158, 225);">Hire From Us</a> </LI>
+                        <LI><a href="contact.html" style="color:  rgb(83, 158, 225);">Contact Us</a></LI>
+                    </UL>       
+                </div>
+                </td>
+
+                <td>
+                    <div class="footer_right" style="width: 200px;height: 100px;">
+                        <p style="color: aliceblue;">Course List</p>
+                        <UL style="color: aliceblue;">
+                            <Li><a href="course1.html" style="color:  rgb(83, 158, 225);">JAVA FULLSTACK</a></Li>
+                            <LI><a href="course2.html" style="color:  rgb(83, 158, 225);">DATA STRUCTURES & ALGORITHM</a></LI>
+                        </UL>
+                </td>
+                <td>
+                    <video src="videoplayback.mp4" controls style="height: 220px; width: 350px;margin-bottom: 50px; padding-top: 5%;">SUCCES STORY</video>
+          </TD>
+              </tr>
+            </table>
+          </footer>
+
+          <div class="footer_footer_divider__RuieL" style="background-color: whitesmoke; height: 1px;"><br></div>
+          <table width="100%">
+            <tr>
+              <td align="left">
+                <div class="footer_footer_copyright__fORMQ" style="color: rgb(83, 158, 225);">
+                    <p>Copyright © 2024 | Top Minds Academy</p>
+              </td>
+              <td align="right">
+                <div class="footer_right">
+                    <a href="/privacy-policy" style="color:rgb(83, 158, 225);">Privacy Policy</a>&nbsp;&nbsp;
+                            <a href="/terms-and-conditions" style="color: rgb(83, 158, 225);">Terms & Conditions</a>&nbsp;&nbsp;
+                            <a href="/refunds-cancellations" style="color:rgb(83, 158, 225);">Refunds / Cancellations</a>
+                </div>
+              </td>
+            </tr>
+          </table>
+          
+
+    </footer>
+</body>
+</html>
